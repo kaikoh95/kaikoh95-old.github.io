@@ -134,6 +134,10 @@ aside#sidebar {
 	margin-top: 20px;
 }
 
+aside3sidebar h3 {
+	color: white;
+}
+
 article#main-col {
 	float: left;
 	margin-top: 20px;
