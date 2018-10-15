@@ -164,6 +164,10 @@ footer {
 	height: 400px;
 }
 
+.dark h3 {
+	text-align: left;
+}
+
 .button_submit {
 	height: 25px;
 	background: #FF8C00;
