@@ -134,18 +134,15 @@ aside#sidebar {
 	margin-top: 20px;
 }
 
-aside3sidebar h3 {
+aside#sidebar h3 {
 	color: white;
+	text-align: center;
 }
 
 article#main-col {
 	float: left;
 	margin-top: 20px;
 	width: 50%;
-}
-
-aside h3 {
-	text-align: center;
 }
 
 footer {
