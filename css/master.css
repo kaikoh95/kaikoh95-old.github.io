@@ -155,7 +155,7 @@ footer {
 
 .dark {
 	padding: 15px;
-	background: #35424a;
+	background: rgba(0,0,0,0.3);
 	color: white;
 	margin-top: 10px;
 	margin-bottom: 10px;
