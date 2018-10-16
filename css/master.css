@@ -1,10 +1,11 @@
 html {
 	background: url(../img/background2.jpg) no-repeat;
 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
+	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
 	font-family: "Helvetica Neue", sans-serif;
+	min-height: 50%;
 }
 
 body {
@@ -13,10 +14,14 @@ body {
 	margin: 0;
 }
 
+p {
+	line-height: 1.2;
+}
+
 header {
 	color: white;
 	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	min-height: 70px;
 	/* border-bottom: #0000ff 5px solid; */
 }
@@ -78,12 +83,13 @@ body a:hover {
 
 #showcase {
 	min-height: 400px;
+	margin-top: 20px;
 	text-align: center;
 	color: white;
 }
 
 #showcase h1 {
-	margin-top: 100px;
+	margin-top: 50px;
 	font-size: 55px;
 	margin-bottom: 10px;
 }
@@ -130,10 +136,25 @@ body a:hover {
 
 aside#sidebar {
 	float: right;
-	width: 30%;
+	width: 50%;
 	margin-top: 20px;
 	color: white;
 	text-align: center;
+}
+
+aside#contact-bar {
+	float: right;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+article#about-me {
+	float: left;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	width: 50%;
 }
 
 article#main-col {
@@ -143,6 +164,7 @@ article#main-col {
 }
 
 footer {
+	position: relative;
 	color: white;
 	padding: 20px;
 	margin-top: 20px;
@@ -151,24 +173,29 @@ footer {
 
 /* Global */
 
-.dark {
+#dark {
 	padding: 15px;
 	background: rgba(0,0,0,0.3);
 	color: white;
-	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 400px;
-	height: 400px;
+	max-width: 835px;
+	max-height: 435px;
+	min-height: 175px;
+	min-width: 300px;
+	height: 175px;
+	width: 300px;
+	overflow: auto;
+	resize: both;
 }
 
-.dark h3 {
-	text-align: left;
+#dark h3 {
+	text-align: center;
 	color: white;
 }
 
-.button_submit {
+.button1 {
 	height: 25px;
-	background: #FF8C00;
+	width: auto;
 	border: 0;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -177,6 +204,7 @@ footer {
 .social-icons {
 	font-size: 50px;
 	text-align: center;
+	padding: 10px;
 }
 
 .social-icons a {
@@ -188,16 +216,17 @@ footer {
 	border-radius: 50%;
 	height: 200px;
 	width: 200px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .line-break {
-	width: 300px;
+	width: 500px;
 	border-top: 1px solid white;
 	margin: 0 auto;
 }
-.line-break {
-	width: 500px;
+
+.line-break1 {
+	width: 200px;
 	border-top: 1px solid white;
 	margin: 0 auto;
 }
