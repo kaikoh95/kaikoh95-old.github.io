@@ -70,6 +70,13 @@ header a:hover {
 	font-weight: bold;
 }
 
+#h7 {
+	color: white;
+	font-size: 10px;
+	margin-top: 2px;
+	margin-left: 213px;
+}
+
 body a:hover {
 	color: blue;
 	font-weight: bold;
