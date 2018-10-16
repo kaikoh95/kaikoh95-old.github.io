@@ -134,14 +134,15 @@ aside#sidebar {
 	margin-top: 20px;
 }
 
+aside#sidebar h3 {
+	color: white;
+	text-align: center;
+}
+
 article#main-col {
 	float: left;
 	margin-top: 20px;
 	width: 50%;
-}
-
-aside h3 {
-	text-align: center;
 }
 
 footer {
@@ -155,12 +156,20 @@ footer {
 
 .dark {
 	padding: 15px;
-	background: #35424a;
+	background: rgba(0,0,0,0.3);
 	color: white;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 400px;
 	height: 400px;
+}
+
+.dark h3 {
+	text-align: left;
+<<<<<<< HEAD
+	color: white;
+=======
+>>>>>>> 32c8645266d565a9f0c690acc0be4ad7b1fd6fa4
 }
 
 .button_submit {
