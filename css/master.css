@@ -12,6 +12,8 @@ body {
 	font: 15px/1 Arial, Helvetica, sans-serif;
 	padding: 0;
 	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
 }
 
 p {
@@ -74,7 +76,7 @@ header a:hover {
 	color: white;
 	font-size: 10px;
 	margin-top: 2px;
-	margin-left: 213px;
+	margin-left: 40%;
 }
 
 body a:hover {
