@@ -134,11 +134,6 @@ aside#sidebar {
 	margin-top: 20px;
 }
 
-aside#sidebar h3 {
-	color: white;
-	text-align: center;
-}
-
 article#main-col {
 	float: left;
 	margin-top: 20px;
@@ -166,6 +161,7 @@ footer {
 
 .dark h3 {
 	text-align: left;
+	color: white;
 }
 
 .button_submit {
