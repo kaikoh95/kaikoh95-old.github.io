@@ -16,6 +16,10 @@ body {
 	min-width: 100%;
 }
 
+a {
+	color: white;
+}
+
 p {
 	line-height: 1.2;
 }
@@ -43,7 +47,7 @@ ul {
 header li {
 	float: left;
 	display: inline;
-	poadding: 0 20 px 0 20px;
+	padding-left: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
 }
@@ -72,22 +76,55 @@ header a:hover {
 	font-weight: bold;
 }
 
-#h7 {
-	color: white;
-	font-size: 10px;
-	margin-top: 2px;
-	margin-left: 40%;
-}
-
 body a:hover {
 	color: blue;
 	font-weight: bold;
 }
 
-.container {
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
+aside#sidebar {
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+aside#contact-bar {
+	float: right;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+article#about-me {
+	float: left;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	width: 50%;
+}
+
+article#main-col {
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+}
+
+footer {
+	position: relative;
+	color: white;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+
+/* IDs */
+#h7 {
+	color: white;
+	font-size: 10px;
+	margin-top: 2px;
+	margin-left: 40%;
 }
 
 #showcase {
@@ -143,45 +180,6 @@ body a:hover {
 	width: 90px;
 }
 
-aside#sidebar {
-	float: right;
-	width: 50%;
-	margin-top: 20px;
-	color: white;
-	text-align: center;
-}
-
-aside#contact-bar {
-	float: right;
-	margin-top: 20px;
-	color: white;
-	text-align: center;
-}
-
-article#about-me {
-	float: left;
-	margin-top: 20px;
-	color: white;
-	text-align: center;
-	width: 50%;
-}
-
-article#main-col {
-	float: left;
-	margin-top: 20px;
-	width: 50%;
-}
-
-footer {
-	position: relative;
-	color: white;
-	padding: 20px;
-	margin-top: 20px;
-	text-align: right;
-}
-
-/* Global */
-
 #dark {
 	padding: 15px;
 	background: rgba(0,0,0,0.3);
@@ -200,6 +198,14 @@ footer {
 #dark h3 {
 	text-align: center;
 	color: white;
+}
+
+/* Classes */
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
 
 .button1 {
