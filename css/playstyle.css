@@ -9,6 +9,14 @@ a:hover {
   text-transform: uppercase;
 }
 
+footer {
+	position: relative;
+	color: white;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: right;
+}
+
 .row {
    color: white;
    margin: auto !important;
