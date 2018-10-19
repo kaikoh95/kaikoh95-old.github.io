@@ -1,0 +1,44 @@
+body {
+  background: url(../img/main.jpg) no-repeat;
+  background-size:cover;
+}
+
+a:hover {
+	color: green !important;
+	font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+.row {
+   color: white;
+   margin: auto !important;
+   min-height: 60%;
+   min-width: 60%;
+   height: 400px;
+   width: 400px;
+   margin-top: 5% !important;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.row h1 {
+  margin: 0 auto;
+  margin-top: 5px;
+  font-weight: bold !important;
+}
+
+.fixed-height {
+  height: 700px !important;
+}
+
+.darkBG {
+  background-color: #999;
+}
+
+.darkerBG {
+  background-color: #666;
+}
+
+.darkestBG {
+  background-color: #333;
+}
