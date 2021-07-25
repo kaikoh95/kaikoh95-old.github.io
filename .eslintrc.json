@@ -1,0 +1,64 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "prettier"],
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true,
+        "browser": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "array-bracket-newline": 2,
+        "array-element-newline": [
+            "error",
+            {
+                "ArrayExpression": {
+                    "minItems": 4
+                },
+                "ArrayPattern": {
+                    "minItems": 4
+                }
+            }
+        ],
+        "brace-style": [
+            2,
+            "1tbs",
+            {
+                "allowSingleLine": false
+            }
+        ],
+        "eqeqeq": 1,
+        "no-console": 1,
+        "linebreak-style": 2,
+        "quotes": [
+            1,
+            "double",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "curly": 1,
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true
+            }
+        ],
+        "space-before-blocks": ["error"]
+    }
+}

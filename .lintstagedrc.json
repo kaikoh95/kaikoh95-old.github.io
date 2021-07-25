@@ -1,0 +1,8 @@
+{
+    "{,(src)/**/}*.{js,ts,tsx}": [
+        "npm run lint",
+        "npm run prettier",
+        "git add"
+    ],
+    "*.{json}": ["npm run prettier"]
+}
