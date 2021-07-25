@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "author": "Kai Koh",
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint": "eslint '{src,unit-tests}/**/*.{js,jsx,ts,tsx,json}' --fix",
+    "lint": "eslint --fix",
     "prettier": "prettier --config .prettierrc '{src,unit-tests}/**/*.{js,jsx,ts,tsx,json}' --write",
     "lint-staged": "lint-staged"
   },
